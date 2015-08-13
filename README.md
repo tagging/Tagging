@@ -64,6 +64,26 @@ Tags and sub-tags are delimited by a vertical bar.
 
 > …
 
+## Input & Output
+
+Input > 
+
+tag1
+
+Output >
+
+Filename1.txt
+
+Filename2.docx
+
+…
+
+[Sub-tags]
+
+0 Show all
+
+1 Sub-tag1
+
 ## License
 
 Tagging is released under the terms of the MIT license. See [COPYING](COPYING) for more
