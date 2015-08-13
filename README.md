@@ -66,23 +66,61 @@ Tags and sub-tags are delimited by a vertical bar.
 
 ## Input & Output
 
-Input > 
+> Input >
 
-tag1
+> tag1
 
-Output >
+> Output >
 
-Filename1.txt
+> [tag1]
 
-Filename2.docx
+> Filename1.txt
 
-…
+> Filename2.docx
 
-[Sub-tags]
+> …
 
-0 Show all
+> [Parent tags]
 
-1 Sub-tag1
+> 0 Show all
+
+> 1 Parent tag1
+
+> 2 Parent tag2
+
+> …
+
+> [Sub-tags]
+
+> 3 Show all
+
+> 4 Sub-tag1
+
+> 5 Sub-tag2
+
+> 6 Sub-tag3
+
+> …
+
+> Input >
+
+> 4
+
+> Output >
+
+> [Sub-tag1]
+
+> Filename3.docx
+
+> Filename4.xlsx
+
+> [Parent tags]
+
+> 0 Show all
+
+> 1 tag1
+
+> …
 
 ## License
 
