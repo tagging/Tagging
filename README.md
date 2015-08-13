@@ -89,8 +89,6 @@ Output:
 
 > 0 Return to initial screen
 
-> Other functions:
-
 > [Parent tags]
 
 > 1 Parent tag1
@@ -124,8 +122,6 @@ Output:
 > Filename4.xlsx
 
 > 0 Return to initial screen
-
-> Other functions:
 
 > [Parent tags]
 
