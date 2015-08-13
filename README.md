@@ -30,7 +30,11 @@ Tagging is a classification, organization and management tool for tagged files.
 
 5 Set filename as default tag;
 
-6 Output file list or sub-tag list for the input tag.
+6 Output file list, parent tags or sub-tag list for the input tag;
+
+7 Enter a number to select parent tag or sub-tag from the above list;
+
+8 Press 0 to return to the initial screen.
 
 ## Tags.txt
 
@@ -65,12 +69,15 @@ Tags and sub-tags are delimited by a vertical bar.
 > …
 
 ## Input & Output
+Output:
 
-> Input >
+> Please input tags separated by space:
+
+Input:
 
 > tag1
 
-> Output >
+Output:
 
 > [tag1]
 
@@ -80,9 +87,11 @@ Tags and sub-tags are delimited by a vertical bar.
 
 > …
 
-> [Parent tags]
+> 0 Return to initial screen
 
-> 0 Show all
+> Other functions:
+
+> [Parent tags]
 
 > 1 Parent tag1
 
@@ -92,7 +101,7 @@ Tags and sub-tags are delimited by a vertical bar.
 
 > [Sub-tags]
 
-> 3 Show all
+> 3 [Show all]
 
 > 4 Sub-tag1
 
@@ -102,11 +111,11 @@ Tags and sub-tags are delimited by a vertical bar.
 
 > …
 
-> Input >
+Input:
 
 > 4
 
-> Output >
+Output:
 
 > [Sub-tag1]
 
@@ -114,13 +123,23 @@ Tags and sub-tags are delimited by a vertical bar.
 
 > Filename4.xlsx
 
-> [Parent tags]
+> 0 Return to initial screen
 
-> 0 Show all
+> Other functions:
+
+> [Parent tags]
 
 > 1 tag1
 
 > …
+
+Input:
+
+> 0
+
+Output:
+
+> Please input tags separated by space:
 
 ## License
 
