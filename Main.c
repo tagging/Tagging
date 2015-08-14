@@ -8,8 +8,7 @@ int main()
 		//Show Welcome
 		//Get Input
 		getch();
-		//Show List
-		//Process List
+		//Display and Process List
 	}
 	return 0;
 }
