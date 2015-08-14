@@ -1,22 +1,22 @@
-# [Master]Rapid Prototype 800 2015-08-10
+# [Master]Rapid Prototype 800 2015-08-10[Closed]
 
-1 Console application written by C language;
+1 Console application written by C language;[Closed]
 
-2 Read file tags in Tags.txt;
+2 Read file tags in Tags.txt;[Closed]
 
-3 Read sub-tags in Sub.txt;
+3 Read sub-tags in Sub.txt;[Closed]
 
-4 Get file list in current folder;
+4 Get file list in current folder;[Closed]
 
-5 Set filename as default tag;
+5 Set filename as default tag;[Closed]
 
-6 Output file list, parent tags and sub-tag list for the input tags;
+6 Output file list, parent tags and sub-tag list for the input tags;[Closed]
 
-7 Enter a number to select parent tag or sub-tag from the above list;
+7 Enter a number to select parent tag or sub-tag from the above list;[Closed]
 
-8 Press 0 to return to the initial screen.
+8 Press 0 to return to the initial screen.[Closed]
 
-## Tags.txt
+## Tags.txt[Closed]
 
 Tags.txt contains all tags for files in this folder.
 
@@ -32,7 +32,7 @@ Filenames and tags are delimited by a vertical bar.
 
 > …
 
-## Sub.txt
+## Sub.txt[Closed]
 
 FILE Sub.txt contains all sub-tags for file tags in this folder.
 
@@ -48,7 +48,7 @@ Tags and sub-tags are delimited by a vertical bar.
 
 > …
 
-## Input & Output
+## Input & Output[Closed]
 Output:
 
 > Please input tags separated by space:
