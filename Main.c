@@ -2,7 +2,7 @@
 
 int main()
 {
-	//Show main menu
+	//Show Main Menu
 	while (1)
 	{
 		//Show Welcome
