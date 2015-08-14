@@ -30,7 +30,7 @@ Tagging is a classification, organization and management tool for tagged files.
 
 5 Set filename as default tag;
 
-6 Output file list, parent tags or sub-tag list for the input tag;
+6 Output file list, parent tags or sub-tag list for the input tags;
 
 7 Enter a number to select parent tag or sub-tag from the above list;
 
