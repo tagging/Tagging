@@ -2,6 +2,10 @@
 
 int main()
 {
-	printf("Hello World!");
-	getch();
+	//show main menu
+	while (1)
+	{
+		//Get Input
+		getch();
+	}
 }
