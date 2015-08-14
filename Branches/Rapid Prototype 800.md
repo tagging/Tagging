@@ -10,7 +10,7 @@
 
 5 Set filename as default tag;
 
-6 Output file list, parent tags or sub-tag list for the input tags;
+6 Output file list, parent tags and sub-tag list for the input tags;
 
 7 Enter a number to select parent tag or sub-tag from the above list;
 
