@@ -2,10 +2,11 @@
 
 int main()
 {
-	//show main menu
+	//Show main menu
 	while (1)
 	{
 		//Get Input
 		getch();
 	}
+	return 0;
 }
