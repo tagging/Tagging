@@ -8,6 +8,7 @@ int main()
 		//Show Welcome
 		//Get Input
 		getch();
+		//Show List
 	}
 	return 0;
 }
