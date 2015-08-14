@@ -2,13 +2,11 @@
 
 int main()
 {
-	//Show Main Menu
+	//Process Tagging
 	while (1)
 	{
-		//Show Welcome
-		//Get Input
-		getch();
-		//Display and Process List
+		//Process initial screen
+		//Process tags
 	}
 	return 0;
 }
