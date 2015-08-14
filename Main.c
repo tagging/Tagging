@@ -2,11 +2,11 @@
 
 int main()
 {
-	//Process Tagging
+	//Tagging
 	while (1)
 	{
 		//Process initial screen
-		//Process tags
+		//Process tagging screen
 	}
 	return 0;
 }
