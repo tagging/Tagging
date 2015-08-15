@@ -5,9 +5,12 @@ typedef char* TagList;
 
 //Process initial screen
 TagList* Initial_Screen() {
+	//line string
+	char tags[1024];
 	//Print Welcome
 	printf("Please input tags separated by space:\n");
 	//Get tags
+	gets(tags);
 }
 
 //Process tagging screen
