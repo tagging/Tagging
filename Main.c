@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 //Process initial screen
-void Initial_Screen() {
-
+Taglist* Initial_Screen() {
+	//Print Welcome
+	//Get tags
 }
 
 //Process tagging screen
-void Tagging_Screen() {
+void Tagging_Screen(TagList* taglist) {
 
 }
 
@@ -16,9 +17,9 @@ int main()
 	while (1)
 	{
 		//Process initial screen
-		Initial_Screen();
+		TagList* taglist = Initial_Screen();
 		//Process tagging screen
-		Tagging_Screen();
+		Tagging_Screen(taglist);
 	}
 	return 0;
 }
