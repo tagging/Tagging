@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 //Defin Taglist Type
-
+typedef char* TagList;
 
 //Process initial screen
-Taglist* Initial_Screen() {
+TagList* Initial_Screen() {
 	//Print Welcome
+	printf("Please input tags separated by space:\n");
 	//Get tags
 }
 
