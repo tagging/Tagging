@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+//Defin Taglist Type
+
+
 //Process initial screen
 Taglist* Initial_Screen() {
 	//Print Welcome
