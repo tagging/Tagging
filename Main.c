@@ -19,15 +19,18 @@ char Tag[MAX_TAG_LENGTH];
 //Define line tag count
 int LineTagCount = 0;
 
-void Split_Tags(char* TagLine)
+//Split string by space
+void strsplit(char* scr, char*** dest, int* count )
 {
 	//saveptr required parameter for strtok_s
 	char *saveptr, *token;
+	//Init count
+	*count = 0;
 	//Get first tag from input line
-	token = strtok_s(TagLine, " ", &saveptr);
+	token = strtok_s(scr, " ", &saveptr);
 	while (token != NULL) {
 		//Get tag from input line and set counter
-		strcpy_s(TagList[LineTagCount++], MAX_TAG_LENGTH, token);
+		strcpy_s((*dest)[*count++], MAX_TAG_LENGTH, token);
 		//Get Next tag from input line
 		token = strtok_s(NULL, " ", &saveptr);
 	}
@@ -43,10 +46,8 @@ void Initial_Screen() {
 	scanf_s("%[^\n]", &TagLine, MAX_LINE_LENGTH);
 	//Read \n
 	getchar();
-	//Init tag count
-	LineTagCount = 0;
 	//Split input line into tags
-	Split_Tags(TagLine);
+	strsplit(TagLine, &TagList, &LineTagCount);
 }
 
 //Process tagging screen
