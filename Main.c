@@ -28,10 +28,12 @@ void FileScan()
 
 	//Get file list in current folder
 
+	//Set filename as default tag
+
 }
 
 //Split string by space
-void strsplit(char* scr, int* count )
+void strsplit(char* scr, int* count)
 {
 	//saveptr required parameter for strtok_s
 	char *saveptr, *token;
