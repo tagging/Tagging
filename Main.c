@@ -6,6 +6,9 @@
 //Define max tag input count in a line
 #define MAX_LINE_TAG_COUNT 128
 
+//Define max input line length
+#define MAX_LINE_LENGTH 1024
+
 //Defin Taglist
 char TagList[MAX_LINE_TAG_COUNT][MAX_TAG_LENGTH];
 
@@ -18,7 +21,7 @@ int LineTagCount = 0;
 //Process initial screen
 void Initial_Screen() {
 	//line string
-	char TagLine[1024];
+	char TagLine[MAX_LINE_LENGTH];
 	//Print Welcome
 	printf("Please input tags separated by space:\n");
 	//Get input line
