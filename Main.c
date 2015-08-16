@@ -9,8 +9,9 @@ TagList* Initial_Screen() {
 	char tags[1024];
 	//Print Welcome
 	printf("Please input tags separated by space:\n");
-	//Get tags
-	gets(tags);
+	//Get input line
+	scanf("%[^\n]", &tags);
+	//Get tags from input line
 }
 
 //Process tagging screen
