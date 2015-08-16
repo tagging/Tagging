@@ -22,11 +22,16 @@ int LineTagCount = 0;
 //Scan files for tags
 void FileScan()
 {
+	//Read file tags in Tags.txt
+
+	//Read sub-tags in Sub.txt
+
+	//Get file list in current folder
 
 }
 
 //Split string by space
-void strsplit(char* scr, char*** dest, int* count )
+void strsplit(char* scr, int* count )
 {
 	//saveptr required parameter for strtok_s
 	char *saveptr, *token;
@@ -36,7 +41,7 @@ void strsplit(char* scr, char*** dest, int* count )
 	token = strtok_s(scr, " ", &saveptr);
 	while (token != NULL) {
 		//Get tag from input line and set counter
-		strcpy_s((*dest)[*count++], MAX_TAG_LENGTH, token);
+		strcpy_s(TagList[(*count)++], MAX_TAG_LENGTH, token);
 		//Get Next tag from input line
 		token = strtok_s(NULL, " ", &saveptr);
 	}
@@ -53,7 +58,7 @@ void Initial_Screen() {
 	//Read \n
 	getchar();
 	//Split input line into tags
-	strsplit(TagLine, &TagList, &LineTagCount);
+	strsplit(TagLine, &LineTagCount);
 }
 
 //Process tagging screen
