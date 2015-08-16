@@ -41,6 +41,8 @@ void Initial_Screen() {
 	printf("Please input tags separated by space:\n");
 	//Get input line
 	scanf_s("%[^\n]", &TagLine, MAX_LINE_LENGTH);
+	//Read \n
+	getchar();
 	//Init tag count
 	LineTagCount = 0;
 	//Split input line into tags
@@ -49,7 +51,7 @@ void Initial_Screen() {
 
 //Process tagging screen
 void Tagging_Screen() {
-	for (int i; i < LineTagCount; i++)
+	for (int i = 0; i < LineTagCount; i++)
 	{
 		printf("%s\n", TagList[i]);
 	}
