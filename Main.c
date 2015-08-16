@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 //Define max tag length
 #define MAX_TAG_LENGTH 128
@@ -22,6 +23,8 @@ int LineTagCount = 0;
 void Initial_Screen() {
 	//line string
 	char TagLine[MAX_LINE_LENGTH];
+	//saveptr required parameter for strtok_s
+	char *saveptr, *token;
 	//Print Welcome
 	printf("Please input tags separated by space:\n");
 	//Get input line
@@ -29,7 +32,13 @@ void Initial_Screen() {
 	//Init tag count
 	LineTagCount = 0;
 	//Get tags from input line
-	while (sscanf_s(TagLine, "%s", &TagList[LineTagCount++], MAX_LINE_LENGTH) > 0);
+	token = strtok_s(TagLine," ",&saveptr);
+	while (token != NULL) {
+		strcpy_s(TagList[LineTagCount++], MAX_TAG_LENGTH, token);
+		free(token);
+		token = strtok_s(NULL, " ", &saveptr);
+	}
+	free(token);
 	//Get tag count from input line
 	LineTagCount--;
 }
