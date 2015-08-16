@@ -25,11 +25,11 @@ void Initial_Screen() {
 	//Print Welcome
 	printf("Please input tags separated by space:\n");
 	//Get input line
-	scanf("%[^\n]", &TagLine);
+	scanf_s("%[^\n]", &TagLine, MAX_LINE_LENGTH);
 	//Init tag count
 	LineTagCount = 0;
 	//Get tags from input line
-	while (sscanf(TagLine, "%s", &TagList[LineTagCount++]) > 0);
+	while (sscanf_s(TagLine, "%s", &TagList[LineTagCount++], MAX_LINE_LENGTH) > 0);
 	//Get tag count from input line
 	LineTagCount--;
 }
