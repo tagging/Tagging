@@ -19,6 +19,12 @@ char Tag[MAX_TAG_LENGTH];
 //Define line tag count
 int LineTagCount = 0;
 
+//Scan files for tags
+void FileScan()
+{
+
+}
+
 //Split string by space
 void strsplit(char* scr, char*** dest, int* count )
 {
@@ -60,6 +66,8 @@ void Tagging_Screen() {
 
 int main()
 {
+	//Scan files for tags
+	FileScan();
 	//Tagging
 	while (1)
 	{
