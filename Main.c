@@ -18,13 +18,17 @@ int LineTagCount = 0;
 //Process initial screen
 void Initial_Screen() {
 	//line string
-	char tagLine[1024];
+	char TagLine[1024];
 	//Print Welcome
 	printf("Please input tags separated by space:\n");
 	//Get input line
-	scanf("%[^\n]", &tagLine);
+	scanf("%[^\n]", &TagLine);
+	//Init tag count
+	LineTagCount = 0;
 	//Get tags from input line
-	sscanf(tagLine, "%s", &Tag);
+	while (sscanf(TagLine, "%s", &TagList[LineTagCount++]) > 0);
+	//Get tag count from input line
+	LineTagCount--;
 }
 
 //Process tagging screen
