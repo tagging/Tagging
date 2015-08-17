@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-//Define max tag length
+//Define max tag name length
 #define MAX_TAG_LENGTH 128
+
+//Define max file name length
+#define MAX_FILE_LENGTH 128
 
 //Define max tag input count in a line
 #define MAX_LINE_TAG_COUNT 128
@@ -10,7 +13,20 @@
 //Define max input line length
 #define MAX_LINE_LENGTH 1024
 
+//File name
+typedef char FileName[MAX_FILE_LENGTH];
+
+//Tags
+typedef char TagName[MAX_TAG_LENGTH];
+
 //Type Filetags
+typedef struct filetags
+{
+	//File name
+	FileName fileName;
+	//Tags
+	TagName* tagNames;
+}Filetags;
 
 //Type FileSubs
 
