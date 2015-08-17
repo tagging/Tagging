@@ -23,9 +23,9 @@ int LineTagCount = 0;
 void FileScan()
 {
 	//Read file tags in Tags.txt
-
+	Filetags* filetags = ReadTags();
 	//Read sub-tags in Sub.txt
-
+	FileSubs* filesubs = ReadSubs();
 	//Get file list in current folder
 
 	//Set filename as default tag
