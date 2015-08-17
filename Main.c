@@ -10,6 +10,12 @@
 //Define max input line length
 #define MAX_LINE_LENGTH 1024
 
+//Type Filetags
+
+//Type FileSubs
+
+//Type FileName
+
 //Defin Taglist
 char TagList[MAX_LINE_TAG_COUNT][MAX_TAG_LENGTH];
 
