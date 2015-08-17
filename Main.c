@@ -29,7 +29,7 @@ void FileScan()
 	//Get file list in current folder
 	FileName* filenames = GetFileList();
 	//Set filename as default tag
-
+	GetDefaultTag(filetags, filenames);
 }
 
 //Split string by space
