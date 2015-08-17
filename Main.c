@@ -25,6 +25,30 @@ char Tag[MAX_TAG_LENGTH];
 //Define line tag count
 int LineTagCount = 0;
 
+//Read file tags in Tags.txt
+Filetags* ReadTags()
+{
+
+}
+
+//Read sub-tags in Sub.txt
+FileSubs* ReadSubs()
+{
+
+}
+
+//Get file list in current folder
+FileName* GetFileList() 
+{
+
+}
+
+//Set filename as default tag
+void SetDefaultTag(Filetags* filetags, FileName* filenames)
+{
+
+}
+
 //Scan files for tags
 void FileScan()
 {
