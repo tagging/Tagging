@@ -28,7 +28,7 @@ typedef struct filetags
 	TagName* tagNames;
 }Filetags;
 
-//Type FileSubs
+//Type FileSubs: Tag name and sub-tag list
 
 
 //Type FileName
