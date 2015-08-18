@@ -56,7 +56,7 @@ FileTags* ReadTags()
 
 	//Malloc tagNames 
 
-	//Analysis lines for fileName and tag
+	//Analysis lines for fileName and tags
 
 	//Append fileTags
 
@@ -68,6 +68,14 @@ FileSubs* ReadSubs()
 {
 	//Malloc FileSubs
 	FileSubs* filesubs = (FileSubs*)malloc(sizeof(FileSubs));
+	//Read lines in file Sub.txt
+
+	//Malloc subtagNames 
+
+	//Analysis lines for tagName and subtagNames
+
+	//Append FileSubs
+
 	return filesubs;
 }
 
