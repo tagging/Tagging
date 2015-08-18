@@ -20,16 +20,18 @@ typedef char FileName[MAX_FILE_LENGTH];
 typedef char TagName[MAX_TAG_LENGTH];
 
 //Type Filetags:File name and tag list
-typedef struct filetags
+typedef struct fileTags
 {
 	//File name
 	FileName fileName;
 	//Tags
 	TagName* tagNames;
-}Filetags;
+}FileTags;
 
 //Type FileSubs: Tag name and sub-tag list
-
+typedef struct filesubs
+{
+}FileSubs;
 
 //Type FileName
 
@@ -44,7 +46,7 @@ char Tag[MAX_TAG_LENGTH];
 int LineTagCount = 0;
 
 //Read file tags in Tags.txt
-Filetags* ReadTags()
+FileTags* ReadTags()
 {
 
 }
