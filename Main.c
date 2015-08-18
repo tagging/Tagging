@@ -50,9 +50,12 @@ int LineTagCount = 0;
 //Read file tags in Tags.txt
 FileTags* ReadTags()
 {
-	//Malloc FileTags
+	//Malloc fileTags
 	FileTags* filetags = (FileTags*)malloc(sizeof(FileTags));
 	//Read lines in file Tags.txt
+
+	//Malloc tagNames 
+
 	return filetags;
 }
 
