@@ -58,7 +58,9 @@ FileTags* ReadTags()
 //Read sub-tags in Sub.txt
 FileSubs* ReadSubs()
 {
-
+	//Malloc FileSubs
+	FileSubs* filesubs = (FileSubs*)malloc(sizeof(FileSubs));
+	return filesubs;
 }
 
 //Get file list in current folder
