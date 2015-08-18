@@ -24,13 +24,17 @@ typedef struct fileTags
 {
 	//File name
 	FileName fileName;
-	//Tags
+	//Tag list
 	TagName* tagNames;
 }FileTags;
 
 //Type FileSubs: Tag name and sub-tag list
 typedef struct filesubs
 {
+	//Tag name
+
+	//Sub-tag list
+
 }FileSubs;
 
 //Type FileName
