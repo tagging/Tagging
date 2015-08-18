@@ -56,6 +56,10 @@ FileTags* ReadTags()
 
 	//Malloc tagNames 
 
+	//Analysis lines for fileName and tag
+
+	//Append fileTags
+
 	return filetags;
 }
 
