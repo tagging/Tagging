@@ -49,7 +49,9 @@ int LineTagCount = 0;
 //Read file tags in Tags.txt
 FileTags* ReadTags()
 {
-
+	//Malloc FileTags
+	FileTags* filetags = (FileTags*)malloc(sizeof(FileTags));
+	return filetags;
 }
 
 //Read sub-tags in Sub.txt
