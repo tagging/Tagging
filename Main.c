@@ -37,9 +37,6 @@ typedef struct filesubs
 	TagName* subtagNames;
 }FileSubs;
 
-//Type FileName
-
-
 //Defin Taglist
 char TagList[MAX_LINE_TAG_COUNT][MAX_TAG_LENGTH];
 
@@ -68,7 +65,7 @@ FileName* GetFileList()
 }
 
 //Set filename as default tag
-void SetDefaultTag(Filetags* filetags, FileName* filenames)
+void SetDefaultTag(FileTags* filetags, FileName* filenames)
 {
 
 }
