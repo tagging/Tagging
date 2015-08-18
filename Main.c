@@ -32,9 +32,9 @@ typedef struct fileTags
 typedef struct filesubs
 {
 	//Tag name
-
+	TagName tagName;
 	//Sub-tag list
-
+	TagName* subtagNames;
 }FileSubs;
 
 //Type FileName
