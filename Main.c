@@ -19,7 +19,7 @@ typedef char FileName[MAX_FILE_LENGTH];
 //Tags
 typedef char TagName[MAX_TAG_LENGTH];
 
-//Type Filetags
+//Type Filetags:File name and tag list
 typedef struct filetags
 {
 	//File name
@@ -30,7 +30,9 @@ typedef struct filetags
 
 //Type FileSubs
 
+
 //Type FileName
+
 
 //Defin Taglist
 char TagList[MAX_LINE_TAG_COUNT][MAX_TAG_LENGTH];
