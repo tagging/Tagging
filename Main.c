@@ -53,7 +53,7 @@ FileTags* ReadTags()
 	//Malloc fileTags
 	FileTags* filetags = (FileTags*)malloc(sizeof(FileTags));
 	//Read lines in file Tags.txt
-
+	Line* lines = FileLines("Tags.txt");
 	//Malloc tagNames 
 
 	//Analysis lines for fileName and tags
