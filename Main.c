@@ -69,7 +69,7 @@ FileSubs* ReadSubs()
 	//Malloc FileSubs
 	FileSubs* filesubs = (FileSubs*)malloc(sizeof(FileSubs));
 	//Read lines in file Sub.txt
-
+	Line* lines = FileLines("Sub.txt");
 	//Malloc subtagNames 
 
 	//Analysis lines for tagName and subtagNames
