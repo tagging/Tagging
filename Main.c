@@ -4,6 +4,7 @@
 #include "Tagging\TagBase.h"
 #include "Tagging\FileBase.h"
 #include "Tagging\StringBase.h"
+#include "Tagging\Screen.h"
 
 //Define max tag input count in a line
 #define MAX_LINE_TAG_COUNT 128
