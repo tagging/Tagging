@@ -6,12 +6,6 @@
 //Define line tag count
 int LineTagCount = 0;
 
-//Get file list in current folder
-FileName* FileBase_GetFileList()
-{
-
-}
-
 //Set filename as default tag
 void SetDefaultTag(FileTags* filetags, FileName* filenames)
 {

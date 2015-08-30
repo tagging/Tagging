@@ -39,3 +39,9 @@ FileSubs* FileBase_ReadSubs()
 
 	return filesubs;
 }
+
+//Get file list in current folder
+FileName* FileBase_GetFileList()
+{
+
+}
