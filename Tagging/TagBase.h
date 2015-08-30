@@ -14,3 +14,6 @@ char Tag[MAX_TAG_LENGTH];
 
 //Tags
 typedef char TagName[MAX_TAG_LENGTH];
+
+//Set filename as default tag
+void TagBase_SetDefaultTag(FileTags* filetags, FileName* filenames);
