@@ -6,22 +6,6 @@
 //Define line tag count
 int LineTagCount = 0;
 
-//Read file tags in Tags.txt
-FileTags* ReadTags()
-{
-	//Malloc fileTags
-	FileTags* filetags = (FileTags*)malloc(sizeof(FileTags));
-	//Read lines in file Tags.txt
-	Line* lines = FileLines("Tags.txt");
-	//Malloc tagNames 
-	filetags->tagNames = (TagName*)malloc(sizeof(TagName) * lines->Count);
-	//Analysis lines for fileName and tags
-
-	//Append fileTags
-
-	return filetags;
-}
-
 //Read sub-tags in Sub.txt
 FileSubs* ReadSubs()
 {
