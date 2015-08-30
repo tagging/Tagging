@@ -1,4 +1,4 @@
 #pragma once
 
 //Split string by space
-void strsplit(char* scr, int* count);
+void StringBase_Strsplit(char* scr, int* count);

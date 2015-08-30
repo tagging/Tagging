@@ -1,9 +1,6 @@
 #include"StringBase.h"
 
 //Split string by space
-void StringBase_Strsplit(char* scr, int* count);
-
-//Split string by space
 void StringBase_Strsplit(char* scr, int* count)
 {
 	//saveptr required parameter for strtok_s
