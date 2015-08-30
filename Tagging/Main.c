@@ -3,12 +3,6 @@
 #include <string.h>
 #include "Main.h"
 
-//Set filename as default tag
-void SetDefaultTag(FileTags* filetags, FileName* filenames)
-{
-
-}
-
 //Scan files for tags
 void FileScan()
 {
