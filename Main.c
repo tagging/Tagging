@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include "Tagging\FileBase.h"
 //Define max tag name length
 #define MAX_TAG_LENGTH 128
 
