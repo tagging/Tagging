@@ -37,7 +37,7 @@ typedef struct filesubs
 }FileSubs;
 
 //Get File Lines
-Line* FileLines(char* fileName);
+Line* FileBase_Lines(char* fileName);
 
 //Read file tags in Tags.txt
 FileTags* ReadTags();
