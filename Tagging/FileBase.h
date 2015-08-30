@@ -9,9 +9,6 @@
 //File name
 typedef char FileName[MAX_FILENAME_LENGTH];
 
-//Tags
-typedef char TagName[MAX_TAG_LENGTH];
-
 //Line
 typedef struct line
 {
