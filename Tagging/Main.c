@@ -22,7 +22,7 @@ void SetDefaultTag(FileTags* filetags, FileName* filenames)
 void FileScan()
 {
 	//Read file tags in Tags.txt
-	FileTags* filetags = ReadTags();
+	FileTags* filetags = FileBase_ReadTags();
 	//Read sub-tags in Sub.txt
 	FileSubs* filesubs = ReadSubs();
 	//Get file list in current folder
