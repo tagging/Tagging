@@ -3,6 +3,12 @@
 //Define max input line length
 #define MAX_LINE_LENGTH 1024
 
+//Define max tag name length
+#define MAX_TAG_LENGTH 128
+
+//Define max file name length
+#define MAX_FILE_LENGTH 128
+
 //File name
 typedef char FileName[MAX_FILE_LENGTH];
 

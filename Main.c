@@ -3,12 +3,6 @@
 #include <string.h>
 #include "Tagging\FileBase.h"
 
-//Define max tag name length
-#define MAX_TAG_LENGTH 128
-
-//Define max file name length
-#define MAX_FILE_LENGTH 128
-
 //Define max tag input count in a line
 #define MAX_LINE_TAG_COUNT 128
 
