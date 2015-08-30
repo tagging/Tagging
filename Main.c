@@ -86,7 +86,7 @@ FileSubs* ReadSubs()
 	//Read lines in file Sub.txt
 	Line* lines = FileLines("Sub.txt");
 	//Malloc subtagNames 
-	filesubs->tagNames = (TagName*)malloc(sizeof(TagName) * lines->Count);
+	filesubs->subtagNames = (TagName*)malloc(sizeof(TagName) * lines->Count);
 	//Analysis lines for tagName and subtagNames
 
 	//Append FileSubs
