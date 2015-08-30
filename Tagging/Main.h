@@ -7,3 +7,6 @@
 
 //Scan files for tags
 void FileScan();
+
+//Process initial screen
+void Initial_Screen();
