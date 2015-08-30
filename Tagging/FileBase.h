@@ -1,5 +1,8 @@
 #pragma once
 
+//Define max input line length
+#define MAX_LINE_LENGTH 1024
+
 //Line
 typedef struct line
 {

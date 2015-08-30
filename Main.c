@@ -12,15 +12,11 @@
 //Define max tag input count in a line
 #define MAX_LINE_TAG_COUNT 128
 
-//Define max input line length
-#define MAX_LINE_LENGTH 1024
-
 //File name
 typedef char FileName[MAX_FILE_LENGTH];
 
 //Tags
 typedef char TagName[MAX_TAG_LENGTH];
-
 
 //Type Filetags:File name and tag list
 typedef struct fileTags
