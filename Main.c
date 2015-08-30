@@ -12,12 +12,6 @@
 //Define max tag input count in a line
 #define MAX_LINE_TAG_COUNT 128
 
-//File name
-typedef char FileName[MAX_FILE_LENGTH];
-
-//Tags
-typedef char TagName[MAX_TAG_LENGTH];
-
 //Defin Taglist
 char TagList[MAX_LINE_TAG_COUNT][MAX_TAG_LENGTH];
 

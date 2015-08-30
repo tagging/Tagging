@@ -3,6 +3,12 @@
 //Define max input line length
 #define MAX_LINE_LENGTH 1024
 
+//File name
+typedef char FileName[MAX_FILE_LENGTH];
+
+//Tags
+typedef char TagName[MAX_TAG_LENGTH];
+
 //Line
 typedef struct line
 {
