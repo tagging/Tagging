@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "Tagging\Main.h"
 #include "Tagging\TagBase.h"
 #include "Tagging\FileBase.h"
 #include "Tagging\StringBase.h"
