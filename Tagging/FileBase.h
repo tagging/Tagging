@@ -7,7 +7,7 @@
 #define MAX_FILENAME_LENGTH 128
 
 //File name
-typedef char FileName[MAX_FILE_LENGTH];
+typedef char FileName[MAX_FILENAME_LENGTH];
 
 //Tags
 typedef char TagName[MAX_TAG_LENGTH];
