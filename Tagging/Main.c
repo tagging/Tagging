@@ -24,7 +24,7 @@ void FileScan()
 	//Read file tags in Tags.txt
 	FileTags* filetags = FileBase_ReadTags();
 	//Read sub-tags in Sub.txt
-	FileSubs* filesubs = ReadSubs();
+	FileSubs* filesubs = FileBase_ReadSubs();
 	//Get file list in current folder
 	FileName* filenames = GetFileList();
 	//Set filename as default tag
