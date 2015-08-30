@@ -1,6 +1,7 @@
 #include"StringBase.h"
 #include"TagBase.h"
 #include<stdio.h>
+#include <string.h>
 
 //Split string by space
 void StringBase_Strsplit(char* scr, int* count)
