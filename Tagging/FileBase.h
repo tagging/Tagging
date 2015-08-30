@@ -46,4 +46,4 @@ FileTags* FileBase_ReadTags();
 FileSubs* FileBase_ReadSubs();
 
 //Get file list in current folder
-FileName* GetFileList();
+FileName* FileBase_GetFileList();
