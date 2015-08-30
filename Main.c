@@ -7,7 +7,7 @@
 #include "Tagging\Screen.h"
 
 //Defin Taglist
-char TagList[MAX_LINE_TAG_COUNT][MAX_TAG_LENGTH];
+char TagList[MAX_TAG_COUNT][MAX_TAG_LENGTH];
 
 //Define Tag
 char Tag[MAX_TAG_LENGTH];
