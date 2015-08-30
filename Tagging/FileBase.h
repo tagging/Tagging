@@ -40,7 +40,7 @@ typedef struct filesubs
 Line* FileBase_Lines(char* fileName);
 
 //Read file tags in Tags.txt
-FileTags* ReadTags();
+FileTags* FileBase_ReadTags();
 
 //Read sub-tags in Sub.txt
 FileSubs* ReadSubs();
