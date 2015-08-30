@@ -18,6 +18,9 @@
     <ClCompile Include="..\Main.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="FileBase.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileBase.h">
