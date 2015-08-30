@@ -7,7 +7,7 @@
 int LineTagCount = 0;
 
 //Get file list in current folder
-FileName* GetFileList() 
+FileName* FileBase_GetFileList()
 {
 
 }
