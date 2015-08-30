@@ -57,7 +57,7 @@ int main()
 		//Process initial screen
 		Screen_Initial();
 		//Process tagging screen
-		Tagging_Screen();
+		Screen_Tagging();
 	}
 	return 0;
 }
