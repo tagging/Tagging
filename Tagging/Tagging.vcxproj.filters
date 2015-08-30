@@ -23,5 +23,8 @@
     <ClInclude Include="FileBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TagBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
