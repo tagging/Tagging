@@ -100,11 +100,11 @@ void strsplit(char* scr, int* count)
 //Process initial screen
 void Initial_Screen() {
 	//line string
-	char TagLine[MAX_LINE_LENGTH];
+	char TagLine[MAX_INPUTLINE_LENGTH];
 	//Print Welcome
 	printf("Please input tags separated by space:\n");
 	//Get input line
-	scanf_s("%[^\n]", &TagLine, MAX_LINE_LENGTH);
+	scanf_s("%[^\n]", &TagLine, MAX_INPUTLINE_LENGTH);
 	//Read \n
 	getchar();
 	//Split input line into tags

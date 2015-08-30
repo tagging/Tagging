@@ -4,7 +4,7 @@
 #define MAX_INPUTLINE_LENGTH 1024
 
 //Define max file name length
-#define MAX_FILE_LENGTH 128
+#define MAX_FILENAME_LENGTH 128
 
 //File name
 typedef char FileName[MAX_FILE_LENGTH];
@@ -18,7 +18,7 @@ typedef struct line
 	//Line Count
 	int Count;
 	//Lines
-	char Lines[][MAX_LINE_LENGTH];
+	char Lines[][MAX_INPUTLINE_LENGTH];
 }Line;
 
 //Type Filetags:File name and tag list
