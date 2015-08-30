@@ -6,9 +6,6 @@
 #include "Tagging\StringBase.h"
 #include "Tagging\Screen.h"
 
-//Define max tag input count in a line
-#define MAX_LINE_TAG_COUNT 128
-
 //Defin Taglist
 char TagList[MAX_LINE_TAG_COUNT][MAX_TAG_LENGTH];
 
