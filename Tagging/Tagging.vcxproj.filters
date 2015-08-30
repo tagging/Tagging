@@ -24,6 +24,9 @@
     <ClCompile Include="Screen.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringBase.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileBase.h">

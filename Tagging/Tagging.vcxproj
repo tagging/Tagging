@@ -121,6 +121,7 @@
     <ClCompile Include="..\Main.c" />
     <ClCompile Include="FileBase.c" />
     <ClCompile Include="Screen.c" />
+    <ClCompile Include="StringBase.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileBase.h" />
