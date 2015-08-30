@@ -6,22 +6,6 @@
 //Define line tag count
 int LineTagCount = 0;
 
-//Read sub-tags in Sub.txt
-FileSubs* ReadSubs()
-{
-	//Malloc FileSubs
-	FileSubs* filesubs = (FileSubs*)malloc(sizeof(FileSubs));
-	//Read lines in file Sub.txt
-	Line* lines = FileLines("Sub.txt");
-	//Malloc subtagNames 
-	filesubs->subtagNames = (TagName*)malloc(sizeof(TagName) * lines->Count);
-	//Analysis lines for tagName and subtagNames
-
-	//Append FileSubs
-
-	return filesubs;
-}
-
 //Get file list in current folder
 FileName* GetFileList() 
 {
