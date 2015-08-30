@@ -104,7 +104,7 @@ void Initial_Screen() {
 	//Print Welcome
 	printf("Please input tags separated by space:\n");
 	//Get input line
-	scanf_s("%[^\n]", &TagLine, MAX_INPUTLINE_LENGTH);
+	scanf_s("%[^\n]", &TagLine, MAX_SCREENINPUT_LENGTH);
 	//Read \n
 	getchar();
 	//Split input line into tags
