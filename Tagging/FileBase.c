@@ -1,4 +1,6 @@
 #include "FileBase.h"
+#include "TagBase.h"
+#include <stdlib.h>
 
 //Get File Lines
 Line* FileBase_Lines(char* fileName)
