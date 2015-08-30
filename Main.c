@@ -21,7 +21,13 @@ typedef char FileName[MAX_FILE_LENGTH];
 typedef char TagName[MAX_TAG_LENGTH];
 
 //Line
-typedef char Line[MAX_LINE_LENGTH];
+typedef struct line
+{
+	//Line Count
+	int Count;
+	//Lines
+	char Lines[][MAX_LINE_LENGTH];
+}Line;
 
 //Type Filetags:File name and tag list
 typedef struct fileTags
