@@ -55,7 +55,7 @@ int main()
 	while (1)
 	{
 		//Process initial screen
-		Initial_Screen();
+		Screen_Initial();
 		//Process tagging screen
 		Tagging_Screen();
 	}
