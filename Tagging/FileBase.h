@@ -12,6 +12,24 @@ typedef struct line
 	char Lines[][MAX_LINE_LENGTH];
 }Line;
 
+//Type Filetags:File name and tag list
+typedef struct fileTags
+{
+	//File name
+	FileName fileName;
+	//Tag list
+	TagName* tagNames;
+}FileTags;
+
+//Type FileSubs: Tag name and sub-tag list
+typedef struct filesubs
+{
+	//Tag name
+	TagName tagName;
+	//Sub-tag list
+	TagName* subtagNames;
+}FileSubs;
+
 //Get File Lines
 Line* FileLines(char* fileName);
 
