@@ -43,7 +43,7 @@ Line* FileBase_Lines(char* fileName);
 FileTags* FileBase_ReadTags();
 
 //Read sub-tags in Sub.txt
-FileSubs* ReadSubs();
+FileSubs* FileBase_ReadSubs();
 
 //Get file list in current folder
 FileName* GetFileList();
