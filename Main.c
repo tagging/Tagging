@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "Tagging\Main.h"
-#include "Tagging\TagBase.h"
-#include "Tagging\FileBase.h"
-#include "Tagging\StringBase.h"
-#include "Tagging\Screen.h"
+#include "Main.h"
 
 //Defin Taglist
 char TagList[MAX_TAG_COUNT][MAX_TAG_LENGTH];

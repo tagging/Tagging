@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Main.c">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
     <ClCompile Include="FileBase.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
@@ -28,6 +25,9 @@
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="TagBase.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>

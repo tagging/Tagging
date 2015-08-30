@@ -118,7 +118,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Main.c" />
+    <ClCompile Include="Main.c" />
     <ClCompile Include="FileBase.c" />
     <ClCompile Include="Screen.c" />
     <ClCompile Include="StringBase.c" />
