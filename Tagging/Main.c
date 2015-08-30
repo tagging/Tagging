@@ -26,7 +26,7 @@ void FileScan()
 }
 
 //Process initial screen
-void Initial_Screen() {
+void Screen_Initial() {
 	//line string
 	char TagLine[MAX_SCREENINPUT_LENGTH];
 	//Print Welcome
