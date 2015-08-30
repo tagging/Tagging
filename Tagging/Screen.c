@@ -1,4 +1,5 @@
 #include "Screen.h"
+#include "TagBase.h"
 
 //Process initial screen
 void Screen_Initial() {
