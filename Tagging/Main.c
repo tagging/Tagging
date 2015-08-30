@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "Main.h"
 
 //Scan files for tags
