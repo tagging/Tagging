@@ -40,7 +40,7 @@ void Screen_Initial() {
 }
 
 //Process tagging screen
-void Tagging_Screen() {
+void Screen_Tagging() {
 	for (int i = 0; i < LineTagCount; i++)
 	{
 		printf("%s\n", TagList[i]);
