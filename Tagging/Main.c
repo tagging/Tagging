@@ -13,7 +13,7 @@ void FileScan()
 	//Get file list in current folder
 	FileName* filenames = FileBase_GetFileList();
 	//Set filename as default tag
-	SetDefaultTag(filetags, filenames);
+	TagBase_SetDefaultTag(filetags, filenames);
 }
 
 int main()
