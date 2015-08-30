@@ -20,6 +20,9 @@ typedef char FileName[MAX_FILE_LENGTH];
 //Tags
 typedef char TagName[MAX_TAG_LENGTH];
 
+//Line
+typedef char Line[MAX_LINE_LENGTH];
+
 //Type Filetags:File name and tag list
 typedef struct fileTags
 {
@@ -71,7 +74,7 @@ FileSubs* ReadSubs()
 	//Read lines in file Sub.txt
 	Line* lines = FileLines("Sub.txt");
 	//Malloc subtagNames 
-
+	filesubs->tagNames = (TagName*)malloc(sizeof(TagName) * lines->Count);
 	//Analysis lines for tagName and subtagNames
 
 	//Append FileSubs
