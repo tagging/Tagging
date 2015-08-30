@@ -51,7 +51,10 @@ char Tag[MAX_TAG_LENGTH];
 int LineTagCount = 0;
 
 //Get File Lines
-
+Line* FileLines(char* fileName)
+{
+	
+}
 
 //Read file tags in Tags.txt
 FileTags* ReadTags()
