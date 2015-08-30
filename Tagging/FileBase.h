@@ -18,7 +18,7 @@ typedef struct line
 	//Line Count
 	int Count;
 	//Lines
-	char Lines[][MAX_INPUTLINE_LENGTH];
+	char Lines[][MAX_FILELINE_LENGTH];
 }Line;
 
 //Type Filetags:File name and tag list
