@@ -3,9 +3,6 @@
 #include <string.h>
 #include "Main.h"
 
-//Define line tag count
-int LineTagCount = 0;
-
 //Set filename as default tag
 void SetDefaultTag(FileTags* filetags, FileName* filenames)
 {
