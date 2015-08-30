@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Tagging\FileBase.h"
+
 //Define max tag name length
 #define MAX_TAG_LENGTH 128
 
@@ -20,14 +21,6 @@ typedef char FileName[MAX_FILE_LENGTH];
 //Tags
 typedef char TagName[MAX_TAG_LENGTH];
 
-//Line
-typedef struct line
-{
-	//Line Count
-	int Count;
-	//Lines
-	char Lines[][MAX_LINE_LENGTH];
-}Line;
 
 //Type Filetags:File name and tag list
 typedef struct fileTags
