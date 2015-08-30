@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "Tagging\TagBase.h"
 #include "Tagging\FileBase.h"
 
 //Define max tag input count in a line
