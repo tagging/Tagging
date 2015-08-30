@@ -1,7 +1,7 @@
 #pragma once
 
 //Define max input line length
-#define MAX_INPUTLINE_LENGTH 1024
+#define MAX_FILELINE_LENGTH 1024
 
 //Define max file name length
 #define MAX_FILENAME_LENGTH 128
