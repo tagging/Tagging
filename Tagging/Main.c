@@ -6,12 +6,6 @@
 //Define line tag count
 int LineTagCount = 0;
 
-//Get File Lines
-Line* FileBase_Lines(char* fileName)
-{
-	
-}
-
 //Read file tags in Tags.txt
 FileTags* ReadTags()
 {
