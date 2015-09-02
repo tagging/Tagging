@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 //Define max input line length
 #define MAX_FILELINE_LENGTH 1024
@@ -15,7 +16,18 @@ typedef struct line
 //Get File Lines
 Line* FileBase_Lines(char* fileName)
 {
-	FILE* f = fopen("Test.txt", "rt");
+	Line* l = (Line*)malloc(sizeof(Line));
+	FILE* f = fopen(fileName, "rt");
+	char s[MAX_FILELINE_LENGTH];
+	if (f == NULL) return 0;
+	while (!feof(f))
+	{
+		if (fgets(s, MAX_FILELINE_LENGTH, f)) 
+		{
+
+		}
+		else break;
+	}
 }
 
 //File Read Test
