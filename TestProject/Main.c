@@ -24,7 +24,7 @@ Line* FileBase_Lines(char* fileName)
 	{
 		if (fgets(s, MAX_FILELINE_LENGTH, f)) 
 		{
-
+			l->Count++;
 		}
 		else break;
 	}
