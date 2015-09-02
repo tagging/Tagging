@@ -10,24 +10,28 @@ typedef struct line
 	//Line Count
 	int Count;
 	//Lines
-	char Lines[][MAX_FILELINE_LENGTH];
+	char** Lines;
 }Line;
 
 //Get File Lines
 Line* FileBase_Lines(char* fileName)
 {
-	Line* l = (Line*)malloc(sizeof(Line));
+	Line* l = (Line*)calloc(1, sizeof(Line));
 	FILE* f = fopen(fileName, "rt");
-	char s[MAX_FILELINE_LENGTH];
 	if (f == NULL) return 0;
 	while (!feof(f))
 	{
-		if (fgets(s, MAX_FILELINE_LENGTH, f)) 
-		{
+		if (l->Count == 0)
+			l->Lines = (char**)calloc(1, sizeof(char*));
+		else
+			l->Lines = (char**)realloc(l->Lines, (l->Count + 1) * sizeof(char*));
+		l->Lines[l->Count] = (char*)malloc(sizeof(char) * MAX_FILELINE_LENGTH);
+		if (fgets(l->Lines[l->Count - 1], MAX_FILELINE_LENGTH, f))
 			l->Count++;
-		}
-		else break;
+		else
+			break;
 	}
+	return l;
 }
 
 //File Read Test
