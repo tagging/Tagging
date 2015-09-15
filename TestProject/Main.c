@@ -37,6 +37,7 @@ Line* FileBase_Lines(char* fileName)
 //File Read Test
 int main()
 {
+	#IFNDEF _TEST_MODE_
 	//Read lines in file Tags.txt
 	Line* lines = FileLines("Tags.txt");
 	printf("Count = %i\n", lines->Count);
