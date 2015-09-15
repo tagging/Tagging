@@ -123,6 +123,7 @@
     <ClCompile Include="Screen.c" />
     <ClCompile Include="StringBase.c" />
     <ClCompile Include="TagBase.c" />
+    <ClCompile Include="Test.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileBase.h" />
