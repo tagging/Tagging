@@ -130,7 +130,6 @@
     <ClInclude Include="Main.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="StringBase.h" />
-    <ClInclude Include="TagBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

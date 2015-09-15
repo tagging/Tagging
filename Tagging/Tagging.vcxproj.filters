@@ -38,9 +38,6 @@
     <ClInclude Include="FileBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TagBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="StringBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
