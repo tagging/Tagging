@@ -5,5 +5,5 @@
 
 typedef	struct node {
 	char content[NODE_CONTENT_MAX_LENGTH] ;
-
+	Node** links;
 } Node;
