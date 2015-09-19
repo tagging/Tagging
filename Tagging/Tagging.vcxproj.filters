@@ -15,32 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FileBase.c">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Screen.c">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StringBase.c">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TagBase.c">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
     <ClCompile Include="Main.c">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Test.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FileBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Screen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
