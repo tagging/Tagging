@@ -2,10 +2,6 @@
 
 int main()
 {
-	//Tagging
-	while (1)
-	{
 
-	}
 	return 0;
 }
