@@ -1,16 +1,16 @@
 #include "Main.h"
 
 //Sort nodes
-_declspec(dllexport) void Node_Sort(Node** nodes)
+_DLLEXPORT void Node_Sort(Node** nodeList)
 {
 	
 }
 
 //Binary Search for nodes
-_declspec(dllexport) Node* Node_Search(
-	Node** nodes, 
-	int nodeCount, 
-	char* saerchContent
+_DLLEXPORT Node* Node_Search(
+	Node** nodeList, //Node List 
+	int nodeCount,  //Node Count
+	char* saerchContent //Search Content
 	) {
 	Node* node = 0;
 	return node;
