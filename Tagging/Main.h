@@ -13,11 +13,17 @@ typedef	struct node {
 	int linkCount;
 } Node;
 
+//Compare Node
+int Node_Compare(Node* node1, Node* node2);
+
 //Sort nodes
-_DLLEXPORT void Node_Sort(Node** nodeList);
+_DLLEXPORT void Node_Sort(
+	Node** nodeList, //Node List 
+	int nodeCount  //Node Count
+	);
 
 //Binary Search for nodes
-_DLLEXPORT Node* Node_Search(
+_DLLEXPORT int Node_Search(
 	Node** nodeList, //Node List
 	int nodeCount, //Node Count
 	char* saerchContent //Search Content
