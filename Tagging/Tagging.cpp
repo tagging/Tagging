@@ -1,4 +1,5 @@
-#include "Main.h"
+#include "Tagging.h"
+#include<string.h>
 
 //Compare Node
 int Node_Compare(Node* node1, Node* node2){
@@ -7,7 +8,6 @@ int Node_Compare(Node* node1, Node* node2){
 
 //Sort nodes
 _DLLEXPORT void Node_Sort(
-//void Node_Sort(
 	Node** nodeList, //Node List 
 	int nodeCount  //Node Count
 	)
@@ -27,7 +27,6 @@ _DLLEXPORT void Node_Sort(
 
 //Binary Search for nodes
 _DLLEXPORT int Node_Search(
-//int Node_Search(
 	Node** nodeList, //Node List 
 	int nodeCount,  //Node Count
 	char* saerchContent //Search Content
@@ -46,18 +45,8 @@ _DLLEXPORT int Node_Search(
 	return -1;
 }
 
-BOOL APIENTRY DllMain(HMODULE hModule,
-	DWORD  ul_reason_for_call,
-	LPVOID lpReserved
-	)
+//test funS
+_DLLEXPORT int testfun(int i)
 {
-	switch (ul_reason_for_call)
-	{
-	case DLL_PROCESS_ATTACH:
-	case DLL_THREAD_ATTACH:
-	case DLL_THREAD_DETACH:
-	case DLL_PROCESS_DETACH:
-		break;
-	}
-	return TRUE;
+	return i + 1;
 }

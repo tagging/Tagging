@@ -1,8 +1,12 @@
 #pragma once
 
-#include <windows.h>
+//#include <windows.h>
 
-#define _DLLEXPORT _declspec(dllexport)
+#ifdef LIBDELL
+#define _DLLEXPORT extern "C" _declspec(dllimport)
+#else
+#define _DLLEXPORT extern "C" _declspec(dllexport)
+#endif
 
 #define NODE_CONTENT_MAX_LENGTH 1024
 
@@ -18,15 +22,16 @@ int Node_Compare(Node* node1, Node* node2);
 
 //Sort nodes
 _DLLEXPORT void Node_Sort(
-//void Node_Sort(
 	Node** nodeList, //Node List 
 	int nodeCount  //Node Count
 	);
 
 //Binary Search for nodes
 _DLLEXPORT int Node_Search(
-//int Node_Search(
 	Node** nodeList, //Node List
 	int nodeCount, //Node Count
 	char* saerchContent //Search Content
 	);
+
+//test fun
+_DLLEXPORT int testfun(int i);
