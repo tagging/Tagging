@@ -7,6 +7,7 @@ int Node_Compare(Node* node1, Node* node2){
 
 //Sort nodes
 _DLLEXPORT void Node_Sort(
+//void Node_Sort(
 	Node** nodeList, //Node List 
 	int nodeCount  //Node Count
 	)
@@ -26,6 +27,7 @@ _DLLEXPORT void Node_Sort(
 
 //Binary Search for nodes
 _DLLEXPORT int Node_Search(
+//int Node_Search(
 	Node** nodeList, //Node List 
 	int nodeCount,  //Node Count
 	char* saerchContent //Search Content
